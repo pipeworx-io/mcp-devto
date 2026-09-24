@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/devto",
-  "title": "devto",
+  "title": "Devto",
   "description": "DEV.to MCP — wraps the DEV Community API (free, no auth for public reads)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/devto",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-devto",
