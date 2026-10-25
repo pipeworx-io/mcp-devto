@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-devto",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DEV.to MCP — wraps the DEV Community API (free, no auth for public reads)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-15b23e5b6e907183f07062c1d93fb1f4d3774cd3172e448a83c48f2369610c1c",
-    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
+    "sourceHash": "v1-a22980f2f9e15d4948aa706599064e450b926cc8aaa26b72c8e931cca61329a6",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }
