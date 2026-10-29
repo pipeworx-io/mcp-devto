@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/devto",
   "title": "Devto",
   "description": "DEV.to MCP — wraps the DEV Community API (free, no auth for public reads)",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/devto",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-devto",

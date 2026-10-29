@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-devto",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "DEV.to MCP — wraps the DEV Community API (free, no auth for public reads)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-devto": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "devto"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-devto.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/devto",
   "pipeworx": {
-    "sourceHash": "v1-a22980f2f9e15d4948aa706599064e450b926cc8aaa26b72c8e931cca61329a6",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "devto",
+    "gatewaySlug": "devto",
+    "sourceHash": "v1-f46627761fe9ad36ab9c8bbee3e8374869c3b3751ad12e00a71c36fff2fedc2f",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
