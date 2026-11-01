@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-devto",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DEV.to MCP — wraps the DEV Community API (free, no auth for public reads)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "devto",
     "gatewaySlug": "devto",
-    "sourceHash": "v1-f46627761fe9ad36ab9c8bbee3e8374869c3b3751ad12e00a71c36fff2fedc2f",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-8c042400182fe01497634290eba815022db01eac39221f3b27f74891221a5eb5",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
